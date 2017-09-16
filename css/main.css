@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	font-size: 50px;
+}
+
+.box {
+	display: inline-block;
+	height: 100px;
+	width: 200px;
+}
+
+.pink {
+	background-color: pink;
+}
+
+@media only screen and (max-width: 600px) {
+	.pink {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.pink {
+		display: inline-block;
+	}
+}
